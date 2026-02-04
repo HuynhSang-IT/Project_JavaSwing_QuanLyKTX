@@ -84,54 +84,43 @@ Hệ thống sử dụng **MySQL** với các bảng chính (tham khảo file `q
 * MySQL Server (Khuyên dùng XAMPP hoặc MySQL Workbench).
 
 ### Các bước thực hiện
-**Bước 1: Clone dự án**
-```bash
-git clone [https://github.com/TenGitHubCuaBan/QuanLyKTX.git](https://github.com/TenGitHubCuaBan/QuanLyKTX.git)
-**Bước 2: Cấu hình Cơ sở dữ liệu
-Mở phpMyAdmin hoặc MySQL Workbench.
-Tạo database mới tên là: quanlyktx.
-Import file quanlyktx.sql (nằm trong thư mục gốc dự án).
-**Bước 3: Cấu hình kết nối Java
-Mở file src/com/quanlyktx/util/DatabaseHelper.java.
-Cập nhật thông tin kết nối (nếu cần): Java
+### Bước 1: Clone dự án
+git clone [https://github.com/HuynhSang-IT/QuanLyKTX.git](https://github.com/HuynhSang-IT/QuanLyKTX.git).
+
+Bước 2: Cấu hình Cơ sở dữ liệu
+1. Mở phpMyAdmin hoặc MySQL Workbench.
+2. Tạo database mới tên là: quanlyktx.
+3. Import file quanlyktx.sql (nằm trong thư mục gốc dự án).
+
+Bước 3: Cấu hình kết nối Java
+1. Mở file src/com/quanlyktx/util/DatabaseHelper.java.
+2. Cập nhật thông tin kết nối (nếu cần):
 String url = "jdbc:mysql://localhost:3306/quanlyktx";
 String user = "root";
-String password = ""; // Mật khẩu MySQL của bạn
-**Bước 4: Chạy ứng dụng
-Tìm file Main.java hoặc DangNhapView.java và chọn Run.
-Tài khoản Admin mặc định:
+String password = ""; // Điền mật khẩu MySQL của bạn vào đây
+
+Bước 4: Chạy ứng dụng
+1. Tìm file Main.java hoặc DangNhapView.java.
+2. Chọn Run.
+3. Tài khoản Admin mặc định:
 User: admin
-Pass: 123.
+Pass: 123
+
+📸 Hình ảnh Demo
 1. Dashboard Tổng quan
 Giao diện chính hiển thị thống kê phòng trống, sinh viên và doanh thu.
-<img width="1669" height="941" alt="Screenshot 2026-01-28 123113" src="https://github.com/user-attachments/assets/62722aff-47fb-48ef-99d4-3aa96381a084" />
+<img width="1669" height="941" alt="Screenshot 2026-01-28 123113" src="https://github.com/user-attachments/assets/73704a10-bcc7-43ee-a615-06841f54f33e" />
 
-2. Quản lý Hợp đồng & Xếp phòng
-Chức năng lập hợp đồng với logic kiểm tra điều kiện chặt chẽ.
-<img width="1669" height="939" alt="Screenshot 2026-01-28 123122" src="https://github.com/user-attachments/assets/5e2cd524-8d00-4910-bdb6-3749dcd3c65c" />
-<img width="1671" height="944" alt="Screenshot 2026-01-28 123131" src="https://github.com/user-attachments/assets/032f1cc0-4b39-4358-a987-d9f812ca3a68" />
-<img width="1666" height="938" alt="Screenshot 2026-01-28 123140" src="https://github.com/user-attachments/assets/f7474184-c28d-4516-90f0-ebd135f51d29" />
-<img width="1671" height="944" alt="Screenshot 2026-01-28 123150" src="https://github.com/user-attachments/assets/82d7d102-5189-481a-9f0a-1052046fcfe7" />
-<img width="1669" height="943" alt="Screenshot 2026-01-28 123159" src="https://github.com/user-attachments/assets/fb3b163a-c036-45c2-bcec-1bc86432b57b" />
 
-3. Quản lý Sự cố
+3. Quản lý Hợp đồng & Xếp phòng
+Chức năng lập hợp đồng với logic kiểm tra điều kiện chặt chẽ (Giới tính, Sức chứa).
+
+4. Quản lý Sự cố
 Ghi nhận và cập nhật trạng thái sửa chữa cơ sở vật chất.
-<img width="1675" height="946" alt="Screenshot 2026-01-28 123232" src="https://github.com/user-attachments/assets/d19f2d7b-04b0-4993-b6d9-d71d7d7059e8" />
-<img width="1666" height="944" alt="Screenshot 2026-01-28 123239" src="https://github.com/user-attachments/assets/bfee5211-811d-48fc-ad0c-b3dd8728662a" />
-<img width="1666" height="944" alt="Screenshot 2026-01-28 123239" src="https://github.com/user-attachments/assets/a6562cd3-a4a2-4cca-b791-45dcc145ee3f" />
-<img width="1672" height="945" alt="Screenshot 2026-01-28 123246" src="https://github.com/user-attachments/assets/40638075-8972-46fa-af1d-093c0a76e152" />
 
-4. Hóa đơn Điện nước
-Tính toán tiền điện nước, gửi xe và xuất hóa đơn.
-<img width="1669" height="936" alt="Screenshot 2026-01-28 123206" src="https://github.com/user-attachments/assets/fdd2fe22-4e74-4f81-bd43-d896f88b6548" />
-<img width="1668" height="936" alt="Screenshot 2026-01-28 123215" src="https://github.com/user-attachments/assets/61f7bfd9-df9b-44e9-be87-f2912013b75f" />
-<img width="1669" height="941" alt="Screenshot 2026-01-28 123224" src="https://github.com/user-attachments/assets/84370cd0-7b8f-4538-8b63-1ebc3da16576" />
-<img width="1669" height="942" alt="Screenshot 2026-01-28 123254" src="https://github.com/user-attachments/assets/13251151-1516-42ac-a860-afe542dc1dd6" />
-5. Quản lý tài khoản
-<img width="1676" height="951" alt="Screenshot 2026-01-28 123301" src="https://github.com/user-attachments/assets/b08cf560-ffc7-432e-9002-3bb65851b4a1" />
-👨‍💻 Tác giả
-Trần Huỳnh Sang (Developer Chính)
-Email: sang123567tqs@gmail.com
-GitHub: [github.com/HuynhSang-IT]
+5. Hóa đơn Điện nước & Gửi xe
+Tính toán tiền điện nước, quản lý gửi xe và xuất hóa đơn.
 
+6. Quản lý Tài khoản
+Quản lý danh sách nhân viên và phân quyền hệ thống.
 
