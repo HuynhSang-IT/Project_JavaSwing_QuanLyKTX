@@ -110,17 +110,35 @@ Pass: 123
 1. Dashboard Tổng quan
 Giao diện chính hiển thị thống kê phòng trống, sinh viên và doanh thu.
 <img width="1669" height="941" alt="Screenshot 2026-01-28 123113" src="https://github.com/user-attachments/assets/73704a10-bcc7-43ee-a615-06841f54f33e" />
+<img width="1669" height="939" alt="Screenshot 2026-01-28 123122" src="https://github.com/user-attachments/assets/a0103b19-43c4-4e0c-b91c-ff508f3decb5" />
+<img width="1671" height="944" alt="Screenshot 2026-01-28 123131" src="https://github.com/user-attachments/assets/215ea92a-40c9-4ff4-a731-38ab768eb983" />
+<img width="1666" height="938" alt="Screenshot 2026-01-28 123140" src="https://github.com/user-attachments/assets/20d5e50b-5603-4e9f-a341-6452ce34eb8e" />
 
 
 3. Quản lý Hợp đồng & Xếp phòng
 Chức năng lập hợp đồng với logic kiểm tra điều kiện chặt chẽ (Giới tính, Sức chứa).
+<img width="1671" height="944" alt="Screenshot 2026-01-28 123150" src="https://github.com/user-attachments/assets/18bc178c-794f-4c6c-b04f-dbc561140758" />
+<img width="1669" height="943" alt="Screenshot 2026-01-28 123159" src="https://github.com/user-attachments/assets/9dd35b1c-8203-4388-98a4-31abc435be30" />
 
 4. Quản lý Sự cố
 Ghi nhận và cập nhật trạng thái sửa chữa cơ sở vật chất.
+<img width="1675" height="946" alt="Screenshot 2026-01-28 123232" src="https://github.com/user-attachments/assets/9f69ea3d-cda9-41b7-bc65-be7b8829adb3" />
+<img width="1666" height="944" alt="Screenshot 2026-01-28 123239 - Copy" src="https://github.com/user-attachments/assets/8c8b6a4e-20ba-4141-acb7-e489eb68a752" />
+<img width="1672" height="945" alt="Screenshot 2026-01-28 123246" src="https://github.com/user-attachments/assets/26c8ddf2-2190-4a9d-bafd-fbee671166d7" />
 
 5. Hóa đơn Điện nước & Gửi xe
 Tính toán tiền điện nước, quản lý gửi xe và xuất hóa đơn.
+<img width="1669" height="936" alt="Screenshot 2026-01-28 123206" src="https://github.com/user-attachments/assets/4ef04632-9660-4af8-850a-ab4f908a05db" />
+<img width="1668" height="936" alt="Screenshot 2026-01-28 123215" src="https://github.com/user-attachments/assets/55fb1987-5add-46c8-90a8-1dba1c078976" />
+<img width="1669" height="941" alt="Screenshot 2026-01-28 123224" src="https://github.com/user-attachments/assets/7b5927f1-03b8-4425-b75e-5660d1b1622d" />
+<img width="1669" height="942" alt="Screenshot 2026-01-28 123254" src="https://github.com/user-attachments/assets/496f18c9-0940-4268-842a-4f78386eb712" />
 
 6. Quản lý Tài khoản
 Quản lý danh sách nhân viên và phân quyền hệ thống.
+<img width="1676" height="951" alt="Screenshot 2026-01-28 123301" src="https://github.com/user-attachments/assets/8d1e8e31-ee6f-42ab-8215-4f4284f5f34c" />
 
+👨‍💻 Tác giả
+Trần Huỳnh Sang (Developer Chính)
+Email: sang123567tqs@gmail.com
+GitHub: HuynhSang-IT
+Nếu thấy dự án hữu ích, hãy để lại cho mình 1 ⭐️ nhé! Cảm ơn bạn!
